@@ -345,13 +345,3 @@ Relationships:
 │  - SSL connection                           │
 │                                             │
 └─────────────────────────────────────────────┘
-```
-
----
-
-This architecture ensures:
-- ✅ Separation of concerns
-- ✅ Scalability
-- ✅ Security
-- ✅ Maintainability
-- ✅ Testability
