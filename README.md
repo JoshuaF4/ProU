@@ -13,23 +13,21 @@ A complete internal tool for managing tasks within a company, featuring employee
 - [Project Structure](#project-structure)
 - [Assumptions & Limitations](#assumptions--limitations)
 
-## ✨ Features
+##  Features
 
 ### Core Features
-- ✅ View all employees and their tasks
-- ✅ Add, update, and delete tasks
-- ✅ Filter tasks by status, employee, and priority
-- ✅ Dashboard with comprehensive analytics and completion rates
-- ✅ Real-time task status updates
-- ✅ Responsive design for all screen sizes
+- View all employees and their tasks
+- Add, update, and delete tasks
+- Filter tasks by status, employee, and priority
+- Dashboard with comprehensive analytics and completion rates
+- Real-time task status updates
+- Responsive design for all screen size
+- User authentication with JWT tokens
+- Role-based access control (Admin & User roles)
+- Admin can manage employees and tasks
+- Regular users can only view and update their assigned tasks
 
-### Bonus Features (Authentication & Authorization)
-- 🔐 User authentication with JWT tokens
-- 👥 Role-based access control (Admin & User roles)
-- 🔒 Admin can manage employees and tasks
-- 📊 Regular users can only view and update their assigned tasks
-
-## 🛠 Tech Stack
+## 🛠Tech Stack
 
 ### Frontend
 - **React 18** - UI library
@@ -51,7 +49,7 @@ A complete internal tool for managing tasks within a company, featuring employee
 - Foreign key relationships between Employees ↔ Tasks
 - Proper indexes for query optimization
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ```
 employee-task-tracker/
@@ -79,13 +77,13 @@ employee-task-tracker/
     └── tasks.db             # SQLite database (generated)
 ```
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 - **Node.js** (v18 or higher)
 - **npm** (v9 or higher)
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -225,10 +223,10 @@ Request Body:
 }
 ```
 
-#### PUT /employees/:id 🔒
+#### PUT /employees/:id 
 Update employee (Admin only)
 
-#### DELETE /employees/:id 🔒
+#### DELETE /employees/:id 
 Delete employee (Admin only)
 
 ### Task Endpoints
@@ -380,7 +378,7 @@ backend/
 └── server.js                   # Express server configuration
 ```
 
-## 🔐 Security Features
+##  Security Features
 
 1. **Password Hashing**: All passwords are hashed using bcryptjs (10 salt rounds)
 2. **JWT Authentication**: Secure token-based authentication with 24-hour expiration
@@ -389,7 +387,7 @@ backend/
 5. **SQL Injection Prevention**: Parameterized queries throughout
 6. **CORS Configuration**: Proper CORS setup for API security
 
-## 📝 Assumptions & Limitations
+##  Assumptions & Limitations
 
 ### Assumptions
 1. **Single Organization**: The system is designed for a single organization
@@ -418,7 +416,7 @@ backend/
 - Docker containerization
 - Deployment configurations (Heroku, Netlify, Railway)
 
-## 🧪 Testing the Application
+## 🧪Testing the Application
 
 ### Test Scenarios
 
@@ -436,11 +434,12 @@ backend/
    - Cannot access employee management
    - Cannot create or delete tasks
 
-## 🤝 Contributing
+##  Contributing
 
 This project was created as part of the ProU Technology internship coding challenge. For questions or feedback, please contact the development team.
 
-## 📄 License
+## 
+License
 
 This project is created for educational and evaluation purposes.
 
