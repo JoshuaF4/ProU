@@ -5,7 +5,26 @@ A complete internal tool for managing tasks within a company, featuring employee
 
 Netlify Deployment Site : https://agent-692a6efbec8253dc2386e72c--joshuaprou.netlify.app/login
 
+<img width="1698" height="1047" alt="image" src="https://github.com/user-attachments/assets/42809892-e826-41a2-88ce-653d8b2b7464" />
 
+## Admin Site
+
+<img width="1791" height="1063" alt="image" src="https://github.com/user-attachments/assets/88e628f8-d1e5-4992-97d8-e35eb7515c49" />
+
+<img width="1772" height="992" alt="image" src="https://github.com/user-attachments/assets/44fa8814-bf54-43d1-ab85-6923a3367fd3" />
+
+<img width="1803" height="985" alt="image" src="https://github.com/user-attachments/assets/61aafb5f-d90e-4e07-9fab-3b8f8d417702" />
+
+<img width="928" height="807" alt="image" src="https://github.com/user-attachments/assets/89c1691d-f4d8-4289-ac1e-175763595ef7" />
+
+<img width="1747" height="638" alt="image" src="https://github.com/user-attachments/assets/eaacfafc-606a-4326-a8da-1612c7a168bf" />
+
+## Employee Site
+
+<img width="1672" height="952" alt="image" src="https://github.com/user-attachments/assets/414bd050-a805-4b57-b453-9f02b8a3cce0" />
+
+<img width="1596" height="733" alt="image" src="https://github.com/user-attachments/assets/19dd12e3-74ad-4fe6-b4f7-3672c121f9f5" />
+<img width="851" height="317" alt="image" src="https://github.com/user-attachments/assets/993a60b5-dd23-48a7-a0cc-b34ac8a4c914" />
 ##  Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
