@@ -2,7 +2,11 @@
 
 A complete internal tool for managing tasks within a company, featuring employee management, task tracking, role-based access control, and real-time dashboard analytics.
 
-## 📋 Table of Contents
+
+Netlify Deployment Site : https://agent-692a6efbec8253dc2386e72c--joshuaprou.netlify.app/login
+
+
+##  Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Architecture Overview](#architecture-overview)
